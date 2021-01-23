@@ -37,6 +37,8 @@ which, accepting the above mentioned variables, generates all nodes recursively
 ~ Code Weaknesses ~
 
 V0: none
+
 V1: correct indices of k-NN (nidx array) but without offset
+
 V2: some issue in "searchVPT()" causes few incorrect k-NN updates
 
